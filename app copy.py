@@ -1,7 +1,7 @@
 import os
 from random import randint
 
-for i in range(1, 365):
+for i in range(1, 210):
     for j in range(randint(1, 10)):  # Simplified loop initialization
         date_string = f"{i} days ago"  # Using f-string for readability
         
